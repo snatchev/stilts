@@ -15,6 +15,7 @@ public class ResourceManager {
         {
             add( "/stomp.js" );
             add( "/WebSocketMain.swf" );
+            add( "/socket-policy.xml" );
         }
     };
 

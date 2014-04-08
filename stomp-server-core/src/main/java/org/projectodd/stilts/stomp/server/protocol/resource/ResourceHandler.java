@@ -86,6 +86,9 @@ public class ResourceHandler extends SimpleChannelUpstreamHandler {
         if (uri.endsWith( ".js" )) {
             return "text/javascript";
         }
+        if (uri.endsWith( ".xml" )) {
+            return "application/xml";
+        }
         return "application/octet-stream";
     }
 
